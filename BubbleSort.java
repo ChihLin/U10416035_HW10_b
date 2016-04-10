@@ -4,21 +4,21 @@ public class BubbleSort {
 
 	public static void main (String[] args) {
 
-    //to put them into the right seat
-		int location;
+	 //to put them into the right seat
+	int location;
 		
 		
-		//an array to store numbers
-		int array[] = {6, 8 ,384, 18 , 5 , 4 , 9 , 75 ,  42 , 65 , 720 , 15 ,9 , 8 , 43 , 28, 48, 91 ,36 ,80};
+	//an array to store numbers
+	int array[] = {6, 8 ,384, 18 , 5 , 4 , 9 , 75 ,  42 , 65 , 720 , 15 ,9 , 8 , 43 , 28, 48, 91 ,36 ,80};
 
 
-    // to change the number's seat
+		// to change the number's seat
 		for (int i = 1; i < 20; i++){
 
-      //to compare the two numbers size
+			//to compare the two numbers size
 			for(int j = 0 ; j <19 ; j++ ){
 			
-			  //compare the two number
+				//compare the two number
 				if(array[j] > array[j+1]){
 					
 					//put the big number in the right seat ,
